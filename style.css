@@ -1,0 +1,65 @@
+/*
+========================
+Header area start
+========================
+*/
+
+body {	
+    font-family: 'Raleway', sans-serif;
+}
+
+a:hover {text-decoration: none;}
+
+::selection {
+    color: white; 
+    background: teal;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: teal;
+}
+
+::-moz-selection {
+    color: white; 
+    background: teal;
+}
+
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.5);
+    display: inline-block;
+    padding: 5px 0px 0px 13px;
+    font-size: 20px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+}
+
+.scrolltotop:hover {   
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

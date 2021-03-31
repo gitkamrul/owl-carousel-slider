@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<!-- Meta setup -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content="">
+		<meta name="decription" content="">
+		<meta name="author" content="Asad Kabir">
+		
+		<!-- Title -->
+		<title>Welcome</title>
+		
+		<!-- Fav Icon -->
+		<link rel="shortcut icon" href="img/fav.png" />	
+		
+		<!-- Include Font-Awesome -->
+		<link rel="stylesheet" href="css/fontawesome-all.min.css" />
+		
+		<!-- Include Owl-Carusol -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+		
+		<!-- Include Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		
+		<!-- Main StyleSheet -->
+		<link rel="stylesheet" href="style.css" />	
+		
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="css/responsive.css" />	
+		
+	</head>
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <div class="babu">
+        	<div class="container">
+        		<div class="owl-carousel products-slider owl-theme">
+        			<div class="item">
+        				<h4>1</h4>
+        			</div>
+        			<div class="item">
+        				<h4>2</h4>
+        			</div>
+        			<div class="item">
+        				<h4>3</h4>
+        			</div>
+        			<div class="item">
+        				<h4>4</h4>
+        			</div>
+        			<div class="item">
+        				<h4>5</h4>
+        			</div>
+        			<div class="item">
+        				<h4>6</h4>
+        			</div>
+        			<div class="item">
+        				<h4>7</h4>
+        			</div>
+        			<div class="item">
+        				<h4>8</h4>
+        			</div>
+        			<div class="item">
+        				<h4>9</h4>
+        			</div>
+        			<div class="item">
+        				<h4>10</h4>
+        			</div>
+        			<div class="item">
+        				<h4>11</h4>
+        			</div>
+        			<div class="item">
+        				<h4>12</h4>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+		
+        <div class="babu">
+        	<div class="container">
+        		<div class="owl-carousel owl-theme shepa">
+        			<div class="item">
+        				<h4>1</h4>
+        			</div>
+        			<div class="item">
+        				<h4>2</h4>
+        			</div>
+        			<div class="item">
+        				<h4>3</h4>
+        			</div>
+        			<div class="item">
+        				<h4>4</h4>
+        			</div>
+        			<div class="item">
+        				<h4>5</h4>
+        			</div>
+        			<div class="item">
+        				<h4>6</h4>
+        			</div>
+        			<div class="item">
+        				<h4>7</h4>
+        			</div>
+        			<div class="item">
+        				<h4>8</h4>
+        			</div>
+        			<div class="item">
+        				<h4>9</h4>
+        			</div>
+        			<div class="item">
+        				<h4>10</h4>
+        			</div>
+        			<div class="item">
+        				<h4>11</h4>
+        			</div>
+        			<div class="item">
+        				<h4>12</h4>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- Main jQuery -->
+		<script src="js/jquery-3.3.1.min.js"></script>		
+
+		<!-- Bootstrap Propper jQuery -->
+		<script src="js/popper.js"></script>
+		
+		<!-- Bootstrap jQuery -->
+		<script src="js/bootstrap.js"></script>
+		
+		<!-- Custom jQuery -->
+		<script src="js/custom.js"></script>
+		
+		
+		
+		<script src="js/owl.carousel.min.js"></script>
+
+		
+		<!-- Scroll-Top button -->
+		<a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
+
+		<script>
+           // first-slider
+
+           $('.products-slider').owlCarousel({
+           	loop: true,
+           	margin: 20,
+           	center: false,
+           	nav: false,
+           	dots: true,
+           	autoplay:true,
+           	autoplayTimeout:2000,
+           	responsiveClass: true,
+           	responsiveRefreshRate: true,
+           	responsive : {
+           		0 : {
+           			items: 1
+           		},
+           		768 : {
+           			items: 3
+           		},
+           		960 : {
+           			items: 2
+           		},
+           		1200 : {
+           			items: 8
+           		},
+           		1920 : {
+           			items: 8
+           		}
+           	}
+           });
+
+         // second slider
+
+         $('.shepa').owlCarousel({
+         	loop: true,
+         	margin: 20,
+         	center: false,
+         	nav: false,
+         	dots: false,
+         	responsiveClass: true,
+         	responsiveRefreshRate: true,
+         	responsive : {
+         		0 : {
+         			items: 1
+         		},
+         		768 : {
+         			items: 3
+         		},
+         		960 : {
+         			items: 1
+         		},
+         		1200 : {
+         			items: 2
+         		},
+         		1920 : {
+         			items: 8
+         		}
+         	}
+         });
+
+          </script>
+		
+	</body>
+</html>
